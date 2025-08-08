@@ -1,1 +1,2 @@
-#ai-chatbot using gemini api ..
+#ai-chatbot using gemini api..
+#my personal chatbot.
