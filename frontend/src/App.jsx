@@ -4,9 +4,7 @@ import './App.css'
 
 function App() {
   const [socket, setSocket] = useState(null)
-  const [messages, setMessages] = useState([
-
-  ])
+  const [messages, setMessages] = useState([])
   const [inputText, setInputText] = useState('')
 
   const handleSendMessage = () => {
