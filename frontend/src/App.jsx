@@ -21,7 +21,6 @@ function App() {
     
     socket.emit('ai-message', inputText)
 
-    
     setInputText('')
     
   }
