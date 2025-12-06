@@ -1,6 +1,6 @@
-import { useState,useEffect } from 'react'
+import { useState,useEffect } from 'react';
 import { io } from "socket.io-client";
-import './App.css'
+import './App.css';
 
 function App() {
   const [socket, setSocket] = useState(null)
@@ -97,4 +97,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
