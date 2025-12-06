@@ -20,7 +20,7 @@ function App() {
     setMessages(prevMessages => [...prevMessages, userMessage])
     
     socket.emit('ai-message', inputText)
-
+    
     setInputText('')
     
   }
