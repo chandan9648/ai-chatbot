@@ -11,7 +11,7 @@ function App() {
     if (inputText.trim() === '') return
 
     const userMessage = {
-      id: Date.now(),
+      id: Date.now(), 
       text: inputText,
       timestamp: new Date().toLocaleTimeString(),
       sender: 'user'
